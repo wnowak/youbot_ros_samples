@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <name>youbot_ros_hello_world</name>
+  <version>0.0.0</version>
+  <description>Simple demo program</description>
+  <maintainer email="nowak@locomotec.com">Walter Nowak</maintainer>
+  <license>LGPLv3</license>
+  <url type="website">http://www.youbot-store.com</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>brics_actuator</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <run_depend>brics_actuator</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>roscpp</run_depend>
+
+</package>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+  <name>youbot_ros_samples</name>
+  <version>0.1.0</version>
+  <description>Various sample programs demonstrating how to use the youBot ROS packages</description>
+
+  <maintainer email="nowak@locomotec.com">Walter Nowak</maintainer>
+
+  <license>GPLv3</license>
+
+  <url type="website">http://www.youbot-store.com</url> -->
+
+  <author email="nowak@locomotec.com">Walter Nowak</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>youbot_ros_hello_world</run_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>
